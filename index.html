@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+    <!-- css do bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- javascript do boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <!-- imagem do logo -->
+                <a class="navbar-brand" href="#"><img src="imagem/logoC.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">home </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#quemsomos">Quem somos </a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cursos">Cursos </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#profissionais">Profissionais</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato </a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success">Success</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="inicio" id="home">
+        <div id="coffecarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#coffecarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#coffecarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#coffecarousel" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <img src="https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/05/20-sites-para-aprender-como-programar-de-gra%C3%A7a.webp"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Os melhores cursos</h5>
+                        <p>cursos divercificados</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img src="https://vestibulares.estrategia.com/portal/wp-content/uploads/2023/12/melhores-cursos-de-gastronomia-1200x675.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Desde o Basico ao avançado </h5>
+                        <p>fornecemos certificado</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <img src="https://www.escoladapaz.com.br/wp-content/uploads/2020/09/o-que-e-um-curso-profissionalizante-descubra-aqui.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Cursos com vagas limitadas </h5>
+                        <p>garanta ja a sua!!</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#coffecarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#coffecarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+    </section>
+    <!-- sobre nos  -->
+    <section class="container" id="quemsomos">
+        <h5 class="text-center mt-5 display-1 ">Quem somos</h5>
+        <p class=" d-flex justify-content-center  ">"Carreira Certa" é uma empresa líder em cursos profissionalizantes,
+            fundada em 2005 com o objetivo de capacitar e transformar vidas por meio da educação. Nossos cursos são
+            desenvolvidos e ministrados por profissionais experientes, enfatizando uma abordagem prática para garantir
+            que nossos alunos adquiram habilidades relevantes para o mercado de trabalho. Oferecemos suporte
+            personalizado, uma variedade de cursos em diversas áreas e oportunidades de networking para impulsionar o
+            sucesso de nossos alunos. Junte-se a nós e dê o próximo passo rumo a uma carreira de sucesso na "Carreira
+            Certa".</p>
+    </section>
+    <!-- cursos -->
+    <section class="container" id="cursos">
+        <h5 class="text-center mt-5 display-1 ">Cursos</h5>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="ti-tab" data-bs-toggle="tab" data-bs-target="#ti-tab-pane"
+                    type="button" role="tab" aria-controls="ti-tab-pane" aria-selected="true">ti</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="gastronomia-tab" data-bs-toggle="tab"
+                    data-bs-target="#gastronomia-tab-pane" type="button" role="tab" aria-controls="gastronomia-tab-pane"
+                    aria-selected="false">gastronomia</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="administracao-tab" data-bs-toggle="tab"
+                    data-bs-target="#administracao-tab-pane" type="button" role="tab"
+                    aria-controls="administracao-tab-pane" aria-selected="false">administracao</button>
+            </li>
+
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="ti-tab-pane" role="tabpanel" aria-labelledby="ti-tab"
+                tabindex="0">
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card" style="width: 18rem; height: 550px;">
+                                <img src="https://images.unsplash.com/photo-1604754742629-3e5728249d73?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Curso basico de hardware</h5>
+                                    <p class="card-text">Aprenda o basico sobre hardware </p>
+                                    <p>Mensalidade R$ 100,00 </p>
+                                    <p> pedriodo: 3 meses</p>
+
+                                    <a href="#" class="btn btn-primary">Matricule-se</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbWElQzMlQTdhb3xlbnwwfHwwfHx8MA%3D%3D"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Curso basico de programação</h5>
+                                    <p class="card-text">Aprenda o basico da programação</p>
+                                    <p>Mensalidade R$150,00</p>
+                                    <p>Periodo: 6 meses</p>
+                                    <a href="#" class="btn btn-primary">Matricule-se</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://plus.unsplash.com/premium_photo-1682130147350-c1f80c968967?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhhcmR3YXJlJTIwZSUyMHByb2dyYW1hJUMzJUE3YW98ZW58MHx8MHx8fDA%3D"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Curso profissionalizantes de TI</h5>
+                                    <p class="card-text">Aprenda o basico ao tecnico em TI</p>
+                                    <p>Mensalidade R$ 300,00</p>
+                                    <p>Periodo: 24 meses</p>
+                                    <a href="#" class="btn btn-primary">Matricule-se</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="gastronomia-tab-pane" role="tabpanel" aria-labelledby="gastronomia-tab"
+                tabindex="0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card" style="width: 18rem;height: 550px;">
+                                <img src="https://atacado.niitsu.com.br/wp-content/uploads/2018/07/04_7-Dicas-para-se-tornar-um-bom-sushiman-1.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Curso de sushiman</h5>
+                                    <p class="card-text">Se torne um profissional do sushi </p>
+                                    <p>Mensalidade R$ 300,00</p>
+                                    <p>Periodo: 36 meses </p>
+                                    <a href="#" class="btn btn-primary">Matricule-se</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card" style="width: 18rem; height: 550px;">
+                                <img src="https://img.freepik.com/fotos-gratis/confeiteiro-de-uniforme-decora-o-bolo_1157-33238.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Curso de Confeiteira</h5>
+                                    <p class="card-text">Especialize-se em confeitaria</p>
+                                    <p>Mensalidade R$ 250,00</p>
+                                    <p>Periodo: 6 meses</p>
+                                    <a href="#" class="btn btn-primary">Matricule-se</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://uploads.metropoles.com/wp-content/uploads/2021/12/13162749/Henrique-Fogaca-credito-Chris-Castanho-600x400.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Curso profissionl de chefe de cozinha </h5>
+                                    <p class="card-text">Se torne um chefe profissinal</p>
+                                    <p>Mensalidade R$ 400,00</p>
+                                    <p>Periodo: 26 meses</p>
+                                    <a href="#" class="btn btn-primary">Matricule-se</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+            <div class="tab-pane fade" id="administracao-tab-pane" role="tabpanel" aria-labelledby="administracao-tab"
+                tabindex="0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShEyEdGSJiwCt5aIDMRqtIf-22vuHUZ9k5SFhKWkGSJw&s"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Curso de administracao</h5>
+                                    <p class="card-text">Aprenda tudo sobre administracao</p>
+                                    <p>Mensalidade R$ 300,00</p>
+                                    <p>Periodo: 12 meses</p>
+                                    <a href="#" class="btn btn-primary">Matricule-se</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- fim dos cursos -->
+    <section class="container" id="profissionais">
+        <h5 class="text-center mt-5 display-1 ">Profissionais</h5>>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagem/profissional 1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Marcio Freitas</h5>
+                            <p class="card-text">Formado em Analise e desenvolvimento de sistemas na Unicamp</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagem/download (4).jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Adriana Carvalho</h5>
+                            <p class="card-text">Formada na area de confeitaria e panificaçao em Le Cordon Bleu Brasil</p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgZj-LTbZcGdnw7fN9zpfm9lZ1U-jVEj1SLrg3u-QF_iu-vkW-"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Henrique Fogaça</h5>
+                            <p class="card-text">Renomado chefe de cozinha </p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="imagem/download (3).jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Matheus Magalhaes</h5>
+                            <p class="card-text">Formado na area de administracao na FGV </p>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+
+    <section class="container" id="contato" >
+    <h5 class="text-center mt-5 display-1 ">Contato</h5>
+    <p>Agradecemos por entrar em contato conosco. Estamos aqui para ajudar e responder suas perguntas da melhor maneira possível. Por favor, sinta-se à vontade para enviar suas dúvidas, sugestões ou comentários preenchendo o formulário abaixo.
+
+        Nosso compromisso é oferecer um excelente atendimento e responder o mais breve possível.
+        
+        Estamos ansiosos para ouvir de você!</p>
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email </label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+ 
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Senha</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        
+      
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Digite sua duvida!</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+      
+        <button type="submit" class="btn btn-primary">enviar</button>
+      </form>
+        
+
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

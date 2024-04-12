@@ -1,0 +1,26 @@
+.navbar-brand img{
+    width: 100px;
+    
+}
+
+.carousel-item{
+    height: 1050px;
+    background: linear-gradient(transparent);
+}
+.card img{
+    height: 300px;
+}
+#quemsomos{
+    line-height: 2;
+    height: 400px;
+}
+#contato{
+    height: 400px;
+    line-height: 2;
+
+}
+.card:hover{
+    opacity: 50%;
+   
+    
+}
